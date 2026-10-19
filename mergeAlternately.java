@@ -3,7 +3,7 @@
 // 如果一个字符串比另一个字符串长，就将多出来的字母追加到合并后字符串的末尾。
 //返回 合并后的字符串 。
 
-public class Test {
+public class mergeAlternately {
     public static void main(String[] args) {
         Solution solution = new Solution();
         String word1 = "abc";   
