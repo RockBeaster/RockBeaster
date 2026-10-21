@@ -1,10 +1,17 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 public class Test {
     public static void main(String[] args) {
-        String str ="abcde";
+        List<Map<String, String>> list = new ArrayList<>();
+        
+        list.add(Map.of("a", "1", "b", "2", "c", "3"));
+        Map<String, String> map = list.get(0);
 
-        for(char c: str.toCharArray()){
-            System.out.print(c+" ");
-        }        
+        System.out.println(list);
+        System.out.println(map.get("a"));
+               
 
 }
 }
